@@ -13,3 +13,9 @@ $(function () {
         }
     });
 });
+
+$(function () {
+    $("#reserveButton").click(function () {
+    $("#reserveModal").modal("toggle");
+    })
+})
